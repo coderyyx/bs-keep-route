@@ -1,0 +1,33 @@
+{
+  "name": "bs-keep-route",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir lib  --presets=stage-0,react,env  --plugins=transform-runtime,transform-class-properties"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderyyx/bs-keep-route.git"
+  },
+  "author": "coderyyx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderyyx/bs-keep-route/issues"
+  },
+  "homepage": "https://github.com/coderyyx/bs-keep-route#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "invariant": "^2.2.4",
+    "path-to-regexp": "^2.4.0",
+    "prop-types": "^15.6.2",
+    "transform-runtime": "^0.0.0",
+    "warning": "^4.0.2"
+  }
+}
