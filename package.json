@@ -1,10 +1,9 @@
 {
   "name": "bs-keep-route",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx babel src --out-dir lib  --presets=stage-0,react,env  --plugins=transform-runtime,transform-class-properties"
   },
   "repository": {
